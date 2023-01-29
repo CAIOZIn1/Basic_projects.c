@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "javascript": "javascriptreact",
+        "locale.h": "c"
+    }
+}
