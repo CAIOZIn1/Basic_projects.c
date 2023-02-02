@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <locale.h> // -> importar biblioteca que pertime o uso de acentos
 
+//#define NUMERO_CONSTANTE = 0 -> define um número constante para a aplicação
+
 void main(){
     //Permite que usemos acentos nas palavras
     setlocale (LC_ALL, ""); // -> permite colocar letras com acentos
