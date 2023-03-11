@@ -42,3 +42,13 @@ void main(){
     system("pause");
  
 }
+
+//--> Setando valores de forma "mais fácil", já que é necessário colocar o /0 a 
+//mão e a linguagem faz isso, imprimindo posteriormente na tela.
+void secondary_method() { 
+    char palavraSecreta[20];
+
+    sprintf(palavraSecreta, 'MELANCIA');
+
+    printf("%s", palavraSecreta);
+}
